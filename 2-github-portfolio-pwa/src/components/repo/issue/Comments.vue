@@ -10,6 +10,8 @@
 </template>
 
 <script>
+import { oktokitMixin } from '../../../mixins/oktokitMixin'
+
 export default {
   name: 'IssueComments',
   props: {
